@@ -1,37 +1,53 @@
-# Tampermonkey Scripts
+# Redgifs Media Controls
 
-A collection of userscripts to enhance your browsing experience.
+A Tampermonkey/Greasemonkey userscript that adds keyboard controls and pseudo-fullscreen mode for Redgifs videos.
 
-## What are Userscripts?
+## Features
 
-Userscripts are small JavaScript programs that modify web pages in your browser. They're installed using browser extensions like [Tampermonkey](https://www.tampermonkey.net/) or [Greasemonkey](https://www.greasespot.net/).
+- **Keyboard Controls** - Control playback without clicking
+- **Pseudo-Fullscreen** - Fullscreen mode that works better than the native one
+- **Quality Toggle** - Quick switch between SD/HD
+- **Audio Toggle** - Mute/unmute with keyboard
+- **Video Seeking** - Jump forward/backward or to specific points
+- **Settings Sync** - Remembers your quality and audio preferences
 
-## Available Scripts
+## Installation
 
-### [Redgifs Media Controls](redgifs-media-controls/)
+1. Install [Tampermonkey](https://www.tampermonkey.net/) or [Greasemonkey](https://www.greasespot.net/) browser extension
+2. Click here to install: [redgifs-media-controls.user.js](redgifs-media-controls.user.js)
+3. Click "Install" when prompted
+4. Visit [Redgifs](https://www.redgifs.com/) and enjoy!
 
-Adds keyboard controls and improved fullscreen mode for Redgifs videos.
+## Keyboard Shortcuts
 
-**Features:**
-- Keyboard shortcuts for play/pause, seeking, quality toggle
-- Pseudo-fullscreen mode that works better than native
-- Settings sync across sessions
+| Key | Action |
+|-----|--------|
+| **F** | Toggle pseudo-fullscreen mode |
+| **Space** | Play/Pause |
+| **M** | Mute/Unmute |
+| **Q** | Toggle quality (SD/HD) |
+| **A** | Auto-mode (fullscreen + unmute + HD) |
+| **←** | Seek backward 5 seconds |
+| **→** | Seek forward 5 seconds |
+| **0-9** | Jump to 0%-90% of video |
 
-**[Install](redgifs-media-controls/redgifs-media-controls.user.js)** | **[Documentation](redgifs-media-controls/)**
+## Why Pseudo-Fullscreen?
 
----
+The pseudo-fullscreen mode (F key) provides a better experience than the native fullscreen:
+- Video stays clear and focused when exiting
+- Works more reliably across different page types
+- Maintains playback state consistently
 
-## How to Use
+## Compatibility
 
-1. Install [Tampermonkey](https://www.tampermonkey.net/) (Chrome/Edge/Brave) or [Greasemonkey](https://www.greasespot.net/) (Firefox)
-2. Click the "Install" link for any script above
-3. Click "Install" in the Tampermonkey/Greasemonkey dialog
-4. Visit the relevant website and enjoy!
+- **Browser:** Chrome, Firefox, Edge, Brave (any browser supporting Tampermonkey/Greasemonkey)
+- **Website:** redgifs.com
+- **Version:** 2.1.5
 
-## Contributing
+## Issues & Contributions
 
-Found a bug or have a suggestion? Open an issue or submit a pull request!
+Found a bug or have a suggestion? Feel free to open an issue on the [main repository](../..).
 
 ## License
 
-All scripts are released under the MIT License unless otherwise specified.
+MIT License - Feel free to modify and share!
